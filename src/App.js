@@ -33,8 +33,8 @@ function ImageGallery() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-9 bg-black">
       <NavBar />
-      <div className="w-full h-full flex flex-col items-center justify-center p-16">
-        <img src="/header.jpg" className="w-[80%] h-[10%] -mt-10 mb-8 rounded-lg shadow-md" alt="" />
+      <div className="w-full h-full flex flex-col items-center justify-center sm600:p-10 p-16">
+        <img src="/header.jpg" className="w-[80%] sm600:w-[90%] h-[10%] -mt-10 mb-8 rounded-lg shadow-md" alt="" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
           {images.map((image) => (
             <div
